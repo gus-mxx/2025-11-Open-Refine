@@ -94,7 +94,7 @@ the pitch.
 {% endcomment %}
 
 
-<p>
+<br>
 <strong>Do these challenges sound familiar? </strong>
 
 ·       Data cleaning takes longer than analysis 
@@ -108,12 +108,12 @@ the pitch.
 ·       Losing track of changes made to raw data 
 
 ·       Data gets messy with many contributors or when it is built over time 
-</p>
-<p>
-If yes, this workshop is for you! 
-</p>
+<br>
 
-<p>
+If yes, this workshop is for you! 
+<br>
+
+<br>
 <strong>In this session, you will learn how to: </strong>
 
 ·       Import and explore large datasets 
@@ -129,15 +129,15 @@ If yes, this workshop is for you!
 ·       Speed up repetitive tasks by replaying past actions 
 
 ·       Undo changes made 
-</p>
+<br>
 
-<p>
+<br>
 This is a beginners level workshop and no prior experience is required. Just bring your laptop with OpenRefine pre-installed. Lunch is included! 
 We will introduce you to OpenRefine, a free and open-source tool that makes tabular data cleaning faster, safer, and more transparent helping you to create reliable, understandable and reusable data. 
-</p>
-<p>
+<br>
+<br>
 For questions, contact **Dr. Sreenithya Avadakkam**, Interoperability Community Manager and Trainer, University Library (s.avadakkam@vu.nl) or **Agustin Medina**, Research Data Steward (a.medina@vu.nl)  
-</p>
+<br>
 
 <p>
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
