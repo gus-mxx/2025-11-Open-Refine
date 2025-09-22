@@ -271,7 +271,7 @@ Display the contact email address set in the configuration file.
   <a href='mailto:{{email}}'>{{email}}</a>
   {% endfor %}
   {% else %}
-  to-be-announced
+  "Agustin Medina"
   {% endif %}
   for more information.
 </p>
