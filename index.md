@@ -411,6 +411,16 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
+</p>
+<p>
+Software
+For this lesson you will need OpenRefine and a web browser. Basic installation steps are provided on <a href="https://datacarpentry.github.io/openrefine-socialsci/">this page</a>. The OpenRefine installation manual provides more details about installation, upgrades and configuration. Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed for this lesson.
+</p>
+<p>
+The data for this lesson is a part of the Data Carpentry Social Sciences workshop. It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database. The SAFI dataset represents interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These interviews were conducted between November 2016 and June 2017 and probed household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), and assets (e.g. number and types of livestock).  <a href="https://ndownloader.figshare.com/files/11502815">Download the SAFI Data Base</a>
+
+</p>
+
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -428,15 +438,6 @@ please preview your site before committing, and make sure to run
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-<p>
-Software
-For this lesson you will need OpenRefine and a web browser. Basic installation steps are provided on <a href="https://datacarpentry.github.io/openrefine-socialsci/">this page</a>. The OpenRefine installation manual provides more details about installation, upgrades and configuration. Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed for this lesson.
-</p>
-<p>
-The data for this lesson is a part of the Data Carpentry Social Sciences workshop. It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database. The SAFI dataset represents interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These interviews were conducted between November 2016 and June 2017 and probed household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), and assets (e.g. number and types of livestock).  <a href="https://ndownloader.figshare.com/files/11502815">Download the SAFI Data Base</a>
-
-</p>
 
 {% comment %}
 For online workshops, the section below provides:
