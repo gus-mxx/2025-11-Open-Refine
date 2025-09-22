@@ -93,6 +93,42 @@ Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
 
+Do these challenges sound familiar? 
+
+·       Data cleaning takes longer than analysis 
+
+·       Repeating boring cleaning steps across multiple files 
+
+·       Large datasets feel overwhelming and hard to navigate 
+
+·       Need a safe, offline way to clean sensitive data 
+
+·       Losing track of changes made to raw data 
+
+·       Data gets messy with many contributors or when it is built over time 
+
+If yes, this workshop is for you! 
+
+In this session, you will learn how to: 
+
+·       Import and explore large datasets 
+
+·       Identify and remove duplicates 
+
+·       Standardize messy formats 
+
+·       Cluster variations (like different spellings of the same name) 
+
+·       Export clean data while keeping your original files intact 
+
+·       Speed up repetitive tasks by replaying past actions 
+
+·       Undo changes made 
+
+This is a beginners level workshop and no prior experience is required. Just bring your laptop with OpenRefine pre-installed (setup instructions will be provided). Lunch is included! 
+We will introduce you to OpenRefine, a free and open-source tool that makes tabular data cleaning faster, safer, and more transparent helping you to create reliable, understandable and reusable data. 
+
+For questions, contact Dr. Sreenithya Avadakkam, Interoperability Community Manager and Trainer, University Library (s.avadakkam@vu.nl) or Agustin Medina, Research Data Steward (a.medina@vu.nl)  
 <p>
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
