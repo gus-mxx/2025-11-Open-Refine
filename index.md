@@ -138,45 +138,6 @@ We will introduce you to OpenRefine, a free and open-source tool that makes tabu
 <br>
 For questions, contact **Dr. Sreenithya Avadakkam**, Interoperability Community Manager and Trainer, University Library (s.avadakkam@vu.nl) or **Agustin Medina**, Research Data Steward (a.medina@vu.nl)  
 <br>
-
-<p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
-</p>
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
-
-{% if site.pilot %}
-This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
-{% endif %}
-
-{% comment %}
-AUDIENCE
-
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
-{% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
-
 {% comment %}
 LOCATION
 
@@ -250,6 +211,45 @@ Modify the block below if there are any special requirements.
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
+<p>
+<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
+href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
+<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
+helpers, and supporters who share a mission to teach foundational computational and data science
+skills to researchers.
+<p align="center">
+  <em>
+  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
+Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+  </em>
+</p>
+{% if site.carpentry == "swc" %}
+{% include swc/intro.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/intro.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/intro.html %}
+{% endif %}
+
+{% if site.pilot %}
+This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
+{% endif %}
+
+{% comment %}
+AUDIENCE
+
+Explain who your audience is.  (In particular, tell readers if the
+workshop is only open to people from a particular institution.
+{% endcomment %}
+{% if site.carpentry == "swc" %}
+{% include swc/who.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/who.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/who.html %}
+{% endif %}
+
+
 {% comment %}
 ACCESSIBILITY
 
@@ -286,16 +286,7 @@ special instructions.
 </p>
 
 {% comment %}
-WORKSHOP RECORDINGS
 
-Modify or remove the block below if you plan to record the workshop.
-{% endcomment %}
-<p id="recordings">
-  <strong>Workshop Recordings:</strong>
-  Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
-  To foster a positive online learning environment, we strongly recommend that participants join in real time.
-  As a result, workshop recordings are not recommended and may not be available to learners.
-</p>
 {% comment %}
 CONTACT EMAIL ADDRESS
 
@@ -321,11 +312,7 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
-<p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
-</p>
+
 
 {% comment %}
 WHO CAN ATTEND?
@@ -367,24 +354,7 @@ Everyone who participates in Carpentries activities is required to conform to th
 <hr/>
 
 
-{% comment %}
-Collaborative Notes
 
-If you want to use an Etherpad, go to
-
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD)
-available at https://codimd.carpentries.org
-{% endcomment %}
-{% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
-
-<p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 <hr/>
 {% endif %}
@@ -494,6 +464,14 @@ please preview your site before committing, and make sure to run
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+<p>
+Software
+For this lesson you will need OpenRefine and a web browser. Basic installation steps are provided on <a href="https://datacarpentry.github.io/openrefine-socialsci/">this page</a>. The OpenRefine installation manual provides more details about installation, upgrades and configuration. Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed for this lesson.
+</p>
+<p>
+The data for this lesson is a part of the Data Carpentry Social Sciences workshop. It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database. The SAFI dataset represents interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These interviews were conducted between November 2016 and June 2017 and probed household features (e.g. construction materials used, number of household members), agricultural practices (e.g. water usage), and assets (e.g. number and types of livestock).  <a href="https://ndownloader.figshare.com/files/11502815">Download the SAFI Data Base</a>
+
 </p>
 
 {% comment %}
