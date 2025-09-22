@@ -95,7 +95,7 @@ the pitch.
 
 
 
-**Do these challenges sound familiar? **
+<strong>Do these challenges sound familiar? </strong>
 
 ·       Data cleaning takes longer than analysis 
 
@@ -113,7 +113,7 @@ If yes, this workshop is for you!
 
 
 
-**In this session, you will learn how to: **
+<strong>In this session, you will learn how to: </strong>
 
 ·       Import and explore large datasets 
 
